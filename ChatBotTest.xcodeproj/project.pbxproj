@@ -12,6 +12,11 @@
 		958B3029210B31B200A8D335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958B3027210B31B200A8D335 /* Main.storyboard */; };
 		958B302B210B31B300A8D335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958B302A210B31B300A8D335 /* Assets.xcassets */; };
 		958B302E210B31B300A8D335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958B302C210B31B300A8D335 /* LaunchScreen.storyboard */; };
+		958B3036210B388D00A8D335 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B3035210B388D00A8D335 /* ChatViewController.swift */; };
+		958B3038210B38A000A8D335 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B3037210B38A000A8D335 /* MessageCell.swift */; };
+		958B303A210B391000A8D335 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B3039210B391000A8D335 /* InputViewController.swift */; };
+		958B303C210B3B0100A8D335 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B303B210B3B0100A8D335 /* Message.swift */; };
+		958B303E210B4FDF00A8D335 /* BotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B303D210B4FDF00A8D335 /* BotService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		958B302A210B31B300A8D335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958B302D210B31B300A8D335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958B302F210B31B300A8D335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958B3035210B388D00A8D335 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		958B3037210B38A000A8D335 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		958B3039210B391000A8D335 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		958B303B210B3B0100A8D335 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		958B303D210B4FDF00A8D335 /* BotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				958B302A210B31B300A8D335 /* Assets.xcassets */,
 				958B302C210B31B300A8D335 /* LaunchScreen.storyboard */,
 				958B302F210B31B300A8D335 /* Info.plist */,
+				958B3035210B388D00A8D335 /* ChatViewController.swift */,
+				958B3037210B38A000A8D335 /* MessageCell.swift */,
+				958B3039210B391000A8D335 /* InputViewController.swift */,
+				958B303B210B3B0100A8D335 /* Message.swift */,
+				958B303D210B4FDF00A8D335 /* BotService.swift */,
 			);
 			path = ChatBotTest;
 			sourceTree = "<group>";
@@ -136,6 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				958B3026210B31B200A8D335 /* ViewController.swift in Sources */,
+				958B303A210B391000A8D335 /* InputViewController.swift in Sources */,
+				958B3038210B38A000A8D335 /* MessageCell.swift in Sources */,
+				958B303E210B4FDF00A8D335 /* BotService.swift in Sources */,
+				958B303C210B3B0100A8D335 /* Message.swift in Sources */,
+				958B3036210B388D00A8D335 /* ChatViewController.swift in Sources */,
 				958B3024210B31B200A8D335 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48S3Y65RF;
 				INFOPLIST_FILE = ChatBotTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mywork.ChatBotTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48S3Y65RF;
 				INFOPLIST_FILE = ChatBotTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mywork.ChatBotTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
