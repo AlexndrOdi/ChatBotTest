@@ -17,6 +17,7 @@
 		958B303A210B391000A8D335 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B3039210B391000A8D335 /* InputViewController.swift */; };
 		958B303C210B3B0100A8D335 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B303B210B3B0100A8D335 /* Message.swift */; };
 		958B303E210B4FDF00A8D335 /* BotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B303D210B4FDF00A8D335 /* BotService.swift */; };
+		958B3042210B585800A8D335 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B3041210B585800A8D335 /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		958B3039210B391000A8D335 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		958B303B210B3B0100A8D335 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		958B303D210B4FDF00A8D335 /* BotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotService.swift; sourceTree = "<group>"; };
+		958B3041210B585800A8D335 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				958B3039210B391000A8D335 /* InputViewController.swift */,
 				958B303B210B3B0100A8D335 /* Message.swift */,
 				958B303D210B4FDF00A8D335 /* BotService.swift */,
+				958B3041210B585800A8D335 /* UserResponse.swift */,
 			);
 			path = ChatBotTest;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				958B3026210B31B200A8D335 /* ViewController.swift in Sources */,
 				958B303A210B391000A8D335 /* InputViewController.swift in Sources */,
 				958B3038210B38A000A8D335 /* MessageCell.swift in Sources */,
+				958B3042210B585800A8D335 /* UserResponse.swift in Sources */,
 				958B303E210B4FDF00A8D335 /* BotService.swift in Sources */,
 				958B303C210B3B0100A8D335 /* Message.swift in Sources */,
 				958B3036210B388D00A8D335 /* ChatViewController.swift in Sources */,

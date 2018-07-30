@@ -42,6 +42,7 @@ class InputViewController: UIViewController {
             delegate?.updateMessages(userText)
         }
         inputField.text = nil
+        BotService.shared.testRequest()
     }
 }
 
